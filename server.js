@@ -4,6 +4,7 @@ var http = require('http'),
 
 extensions = {                                                          //<--specify MIME file types.
     ".html" : "text/html",
+    ".js" : "application/javascript",
     ".babylon" : "application/babylon"                                   //<--- ADD .babylon MIME type.
 };
 
